@@ -1,16 +1,28 @@
-
 // Fonts
-@import url('https://fonts.googleapis.com/css?family=Nunito');
+@import url("https://fonts.googleapis.com/css?family=Nunito");
 
 // Variables
-@import 'variables';
+@import "variables";
 
 // Bootstrap
-@import '~bootstrap/scss/bootstrap';
-@import '~admin-lte/dist/css/adminlte.css';
+@import "~bootstrap/scss/bootstrap";
+@import "~admin-lte/dist/css/adminlte.css";
 @import "~font-awesome/scss/font-awesome.scss";
 
 .navbar-laravel {
-  background-color: #fff;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+}
+.router-link-exact-active {
+    background-color: #3f51b5;
+    color :#fff !important;
+}
+.pl-15{
+    padding-left: 15px!important;
+}
+.mt-20{
+    margin-top: 20px!important;
+}
+.pt-30{
+    padding-top:30px;
 }
